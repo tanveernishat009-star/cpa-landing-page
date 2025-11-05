@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanveer Nishat Exclusive CPA Offer</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Professional Gradient Background */
+            background: linear-gradient(135deg, #1f2937 0%, #0c0a09 100%);
+            color: #e5e7eb;
+            min-height: 100vh;
+        }
+        /* Custom Keyframes for Pulsing CTA */
+        @keyframes pulse-cta {
+            0% { box-shadow: 0 0 0 0 rgba(6, 182, 212, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(6, 182, 212, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(6, 182, 212, 0); }
+        }
+        .cta-pulse {
+            animation: pulse-cta 2s infinite;
+        }
+        /* Modal Styles */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: none; /* Hidden by default */
+            z-index: 50;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center p-4">
+
+    <!-- Primary Conversion Card -->
+    <div class="w-full max-w-2xl mx-auto z-10">
+        <div class="bg-gray-800 p-8 sm:p-12 rounded-2xl shadow-2xl border-t-8 border-cyan-500">
+            
+            <!-- Identity and Header -->
+            <header class="text-center mb-10">
+                <p class="text-xs font-semibold uppercase tracking-widest text-cyan-400 mb-4">TANVEER NISHAT | DIGITAL ASSETS</p>
+                <img 
+                    src="https://placehold.co/100x100/06B6D4/1F2937?text=T.N." 
+                    alt="Tanveer Nishat Logo" 
+                    class="mx-auto w-24 h-24 rounded-full border-4 border-gray-600 shadow-xl"
+                >
+            </header>
+
+            <!-- Dynamic Offer Section -->
+            <main class="text-center mb-8">
+                <h1 id="main-headline" class="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight text-white drop-shadow-lg">
+                    💰 Unlock the 2024 CPA Income Accelerator Kit.
+                </h1>
+                <p id="sub-headline" class="text-xl text-gray-300 font-medium">
+                    This step-by-step blueprint guarantees your first $100 payout.
+                </p>
+            </main>
+
+            <!-- Benefit Checklist (Professional Trust Element) -->
+            <ul class="text-left max-w-md mx-auto space-y-3 mb-10 text-lg">
+                <li class="flex items-start">
+                    <svg class="h-6 w-6 text-cyan-400 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <span>**NO** experience required: Beginner-friendly training.</span>
+                </li>
+                <li class="flex items-start">
+                    <svg class="h-6 w-6 text-cyan-400 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <span>Instant access to our highest-converting **Email Templates**.</span>
+                </li>
+                <li class="flex items-start">
+                    <svg class="h-6 w-6 text-cyan-400 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <span>Zero upfront cost – **100% FREE** download today.</span>
+                </li>
+            </ul>
+            
+            <!-- Call to Action (CTA) Form -->
+            <form id="offer-form" class="bg-gray-900 p-8 rounded-xl shadow-inner">
+                <p class="text-center text-white mb-6 text-2xl font-bold">
+                    Enter Your Email for Immediate Download
+                </p>
+                <input 
+                    type="email" 
+                    id="user-email"
+                    placeholder="Enter Your BEST Email Here (Required)" 
+                    required 
+                    class="w-full p-4 mb-4 rounded-lg bg-gray-700 text-white border border-gray-600 placeholder-gray-400 focus:ring-cyan-500 focus:border-cyan-500 transition duration-200 text-lg"
+                >
+                <button 
+                    id="cta-button"
+                    type="submit" 
+                    class="w-full bg-cyan-500 hover:bg-cyan-600 text-gray-900 text-2xl font-black p-4 rounded-lg shadow-2xl transition duration-300 transform hover:scale-[1.02] active:scale-[0.98] mt-2 cta-pulse"
+                >
+                    CLICK HERE TO DOWNLOAD!
+                </button>
+            </form>
+
+            <!-- Legal/Trust Section -->
+            <footer class="mt-8 text-center pt-6">
+                <p class="text-xs text-gray-500">
+                    We hate spam as much as you do. Your data is 100% secure. <a href="#" class="text-gray-400 hover:text-cyan-400 underline">Privacy Policy</a>
+                </p>
+            </footer>
+
+        </div>
+    </div>
+    
+    <!-- Time-Delayed/Exit-Intent Modal (Dynamic Conversion Feature) -->
+    <div id="last-chance-modal" class="modal flex items-center justify-center">
+        <div class="bg-white p-6 sm:p-10 rounded-xl shadow-2xl max-w-md w-full border-t-8 border-red-500 transform scale-100 transition-transform duration-500">
+            <h2 class="text-3xl font-extrabold text-red-600 mb-3 text-center">
+                ✋ WAIT! Don't Go Yet!
+            </h2>
+            <p class="text-gray-700 text-lg mb-6 text-center">
+                **LAST CHANCE:** Claim your **FREE BONUS** guide on advanced traffic methods.
+            </p>
+            <form id="modal-form">
+                <input 
+                    type="email" 
+                    id="modal-email"
+                    placeholder="Enter Email to Get the BONUS Guide" 
+                    required 
+                    class="w-full p-3 mb-4 rounded-lg bg-gray-100 text-gray-800 border border-red-300 focus:ring-red-500 focus:border-red-500 transition duration-200 text-base"
+                >
+                <button 
+                    type="submit" 
+                    class="w-full bg-red-600 hover:bg-red-700 text-white text-xl font-bold p-3 rounded-lg shadow-lg transition duration-200"
+                >
+                    Yes, Send Me the FREE BONUS!
+                </button>
+            </form>
+            <button 
+                onclick="document.getElementById('last-chance-modal').style.display='none';"
+                class="mt-4 w-full text-sm text-gray-500 hover:text-red-500 transition"
+            >
+                No thanks, I'll miss out on the bonus.
+            </button>
+        </div>
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const headlineEl = document.getElementById('main-headline');
+            const subHeadlineEl = document.getElementById('sub-headline');
+            const ctaButtonEl = document.getElementById('cta-button');
+            const formEl = document.getElementById('offer-form');
+            const primaryEmailInput = document.getElementById('user-email');
+
+            // Modal elements
+            const modal = document.getElementById('last-chance-modal');
+            const modalFormEl = document.getElementById('modal-form');
+            const modalEmailInput = document.getElementById('modal-email');
+            
+            const urlParams = new URLSearchParams(window.location.search);
+            const offer = urlParams.get('offer');
+
+            // --- Dynamic Offer Definitions ---
+            const offers = {
+                'vip': {
+                    headline: '👑 VIP Access: The Secret Income Stream Revealed!',
+                    sub: 'Only for our top list members. Unlock this exclusive method now.',
+                    cta: 'Unlock VIP Method!',
+                    color: 'bg-yellow-500 hover:bg-yellow-600 shadow-yellow-900/50'
+                },
+                'webinar': {
+                    headline: '🔴 Secure Your FREE Seat: Live CPA Secrets Training.',
+                    sub: 'Spaces are limited! Register immediately to claim your spot.',
+                    cta: 'Reserve My FREE Seat',
+                    color: 'bg-indigo-600 hover:bg-indigo-700 shadow-indigo-900/50'
+                },
+                'default': {
+                    headline: '💰 Unlock the 2024 CPA Income Accelerator Kit.',
+                    sub: 'This step-by-step blueprint guarantees your first $100 payout.',
+                    cta: 'CLICK HERE TO DOWNLOAD!',
+                    color: 'bg-cyan-500 hover:bg-cyan-600 shadow-cyan-900/50' // Default cyan color
+                }
+            };
+
+            const currentOffer = offers[offer] || offers.default;
+
+            // Apply dynamic content
+            headlineEl.textContent = currentOffer.headline;
+            subHeadlineEl.textContent = currentOffer.sub;
+            ctaButtonEl.textContent = currentOffer.cta;
+
+            // Update CTA button color dynamically and manage pulse animation
+            // NOTE: The base pulse class (cta-pulse) is defined in the <style> block
+            const baseClasses = ['w-full', 'text-gray-900', 'text-2xl', 'font-black', 'p-4', 'rounded-lg', 'shadow-2xl', 'transition', 'duration-300', 'transform', 'hover:scale-[1.02]', 'active:scale-[0.98]', 'mt-2', 'cta-pulse'];
+            ctaButtonEl.className = currentOffer.color.split(' ').join(' ') + ' ' + baseClasses.join(' ');
+            
+            // --- Form Submission Logic ---
+            const handleSubmit = (e, source) => {
+                e.preventDefault();
+                const email = (source === 'modal' ? modalEmailInput : primaryEmailInput).value;
+
+                // Simple check to ensure email is provided
+                if (!email) {
+                    console.error('Email is required.');
+                    return;
+                }
+                
+                console.log(`Email: ${email}. Offer: ${offer || 'default'}. Source: ${source}. Redirecting...`);
+                
+                // IMPORTANT: Replace 'YOUR_AFFILIATE_LINK' with your actual CPA link.
+                // You can add email to your tracking URL if needed:
+                // window.location.href = 'YOUR_AFFILIATE_LINK' + '?email=' + encodeURIComponent(email);
+
+                // Placeholder success state for both forms
+                if (source === 'modal') {
+                    modal.style.display = 'none';
+                }
+                headlineEl.textContent = 'Success! Offer Claimed!';
+                subHeadlineEl.textContent = 'You are being redirected to the CPA offer page now...';
+                formEl.innerHTML = '<p class="text-center text-2xl text-cyan-400 font-bold">Access Granted!</p>';
+            };
+
+            formEl.addEventListener('submit', (e) => handleSubmit(e, 'main'));
+            modalFormEl.addEventListener('submit', (e) => handleSubmit(e, 'modal'));
+            
+            // --- Dynamism Feature: Time-Delayed Modal ---
+            setTimeout(() => {
+                // Only show modal if the user hasn't already filled out the main form
+                if (formEl.querySelector('button')) {
+                    modal.style.display = 'flex';
+                }
+            }, 7000); // Modal appears after 7 seconds
+
+            // Optional: Close modal if user hits ESC
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    modal.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
